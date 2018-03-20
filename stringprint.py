@@ -1,7 +1,7 @@
-def reverse(s):
-  str = ""
-  for r in s:
-    str = r + str
-  return str
-s = raw_input()
-print (reverse(s))
+def rev(e):
+  y = ""
+  for g in e:
+    y = g + y
+  return y
+e = raw_input()
+print (rev(e))
