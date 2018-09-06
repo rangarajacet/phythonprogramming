@@ -1,0 +1,5 @@
+s1=str(input()).split()
+n=int(s1[1])
+s1=str(input()).split()
+s1.sort(reverse=True)
+print(s1[n-1])
